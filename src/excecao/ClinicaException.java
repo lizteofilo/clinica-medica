@@ -1,0 +1,11 @@
+package excecao;
+
+public class ClinicaException extends Exception {
+    public ClinicaException(String mensagem) {
+        super(mensagem);
+    }
+
+    public ClinicaException(String mensagem, Throwable causa) {
+        super(mensagem, causa);
+    }
+}
